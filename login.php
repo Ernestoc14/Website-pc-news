@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "test";
+$dbname = "onlinestore";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn) 
@@ -24,7 +24,7 @@ if($nr == 1)
 }
 else if ($nr == 0) 
 {
-	header("Location: login.html");
+	header("Location: Login New.html");
 	//echo "No ingreso"; 
 }
 	
